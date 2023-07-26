@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-node:
+    runs-on: ubuntu-20.04
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Build and push Docker image
+        env:
+          IMAGE_TAG: ${{ github.sha }}
+        run: |
+          echo ${{ secrets.DOCKERHUB_TOKEN }} | docker login --username ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
+          docker build -t your-image-name:$IMAGE_TAG .
+          docker push your-image-name:$IMAGE_TAG
+
+        - name: SSH into server and deploy
+        uses: appleboy/ssh-action@v0.2.0
+        with:
+          host: your-server-ip
+          username: your-ssh-username
+          password: ${{ secrets.SERVER_PASSWORD }}
+          script: |
+            docker pull your-image-name:${{ github.sha }}
+            docker stop your-container-name || true
+            docker rm your-container-name || true
+            docker run -d --name your-container-name -p 80:80 your-image-name:${{ github.sha }}
+
