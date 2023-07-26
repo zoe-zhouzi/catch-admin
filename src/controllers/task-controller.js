@@ -181,7 +181,12 @@ const getOneTaskResult = async (req, res) => {
         res.send(result)
     })
 } 
+
+const updateCookie = async (req, res) => {
+    
+}
 module.exports.addOneTask = addOneTask
 module.exports.getAllCatchTask = getAllCatchTask
 module.exports.addBatchTasks = addBatchTasks
 module.exports.getOneTaskResult = getOneTaskResult
+module.exports.updateCookie = updateCookie

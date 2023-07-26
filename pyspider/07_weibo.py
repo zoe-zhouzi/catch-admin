@@ -81,7 +81,7 @@ def spiderWeibo(url):
         'referer': user_url,
     }
     cookies = {
-        'SUB': '_2A25JkR1eDeRhGeNH41cT8yzKzz6IHXVq5wmWrDV8PUNbmtAGLU3BkW9NSm0StlOX4EzRVkf7GI3c4Pknzl5MUMSw',
+        'SUB': '_2A25JnXNUDeRhGeNH41cT8yzKzz6IHXVq6-OcrDV8PUJbmtAGLWjTkW9NSm0Sti22enfSGEIte5xV3kGWZAhCD5IA',
         # 'SUB': getCookie()
     }
 

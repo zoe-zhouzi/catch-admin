@@ -3,6 +3,7 @@ const MongoClient = require('mongodb').MongoClient;
 const url = 'mongodb://172.17.33.149:32017';
 const client = new MongoClient(url);
 
+
 module.exports = {
     connect: function(callback) {
         client.connect(err => {
@@ -59,5 +60,6 @@ module.exports = {
         }).catch(error => {
             callback(0)
         });
-    }
+    },
 };
+

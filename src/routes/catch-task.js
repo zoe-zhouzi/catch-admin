@@ -1,5 +1,5 @@
 const express = require("express")
-const { addOneTask, getAllCatchTask, addBatchTasks, getOneTaskResult } = require('../controllers/task-controller')
+const { addOneTask, getAllCatchTask, addBatchTasks, getOneTaskResult,updateCookie } = require('../controllers/task-controller')
 
 // 创建路由对象
 const router = express.Router();
@@ -13,8 +13,8 @@ router.get('/api/allcatchtask', getAllCatchTask)
 router.post('/api/addmultask', addBatchTasks)
 // 查看结果
 router.post('/api/onetaskresult', getOneTaskResult)
-
-
+// 更新cookie数据
+router.post('/api/updatecookie', updateCookie)
 
 // 向外共享路由对象
 module.exports = router
