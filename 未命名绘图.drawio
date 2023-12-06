@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T18:25:37.991Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="gcnip_4x_usx2qjagjXP" version="22.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-06T19:34:38.397Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="_p04DkcVVK33GgbSUTPP" version="22.1.6" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="2472" dy="-221" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2487" dy="-95" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1368,17 +1368,14 @@
         <mxCell id="BiJhM_VMTUZxtPvZXDxP-214" value="文本向量化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1431" y="8183.5" width="78" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BcbBSlBJFoY68DDm0Xip-1" value="基于开源情报的数据采集与分析系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1689" y="4373" width="120" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="BcbBSlBJFoY68DDm0Xip-3" value="事件管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="BcbBSlBJFoY68DDm0Xip-3" value="基于开源情报的数据采集与分析系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1689" y="4444" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BcbBSlBJFoY68DDm0Xip-9" value="搜索事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="2015" y="4529" width="90" height="40" as="geometry" />
+          <mxGeometry x="1911" y="4529" width="121" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BcbBSlBJFoY68DDm0Xip-10" value="新建事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1878" y="4529" width="90" height="39" as="geometry" />
+          <mxGeometry x="1764" y="4529" width="123" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BcbBSlBJFoY68DDm0Xip-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="BcbBSlBJFoY68DDm0Xip-10" target="BcbBSlBJFoY68DDm0Xip-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1393,7 +1390,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BcbBSlBJFoY68DDm0Xip-31" value="查看所有事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1411" y="4529" width="90" height="40" as="geometry" />
+          <mxGeometry x="1498" y="4529" width="109" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BcbBSlBJFoY68DDm0Xip-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.414;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="BcbBSlBJFoY68DDm0Xip-31" target="BcbBSlBJFoY68DDm0Xip-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1401,14 +1398,8 @@
             <mxPoint x="2208.5" y="4551" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BcbBSlBJFoY68DDm0Xip-34" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="BcbBSlBJFoY68DDm0Xip-3" target="BcbBSlBJFoY68DDm0Xip-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1501.5" y="4508" as="sourcePoint" />
-            <mxPoint x="1551.5" y="4458" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="BcbBSlBJFoY68DDm0Xip-35" value="查看某个事件详情" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1634" y="4529" width="110" height="40" as="geometry" />
+          <mxGeometry x="1632" y="4529" width="109" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BcbBSlBJFoY68DDm0Xip-36" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="BcbBSlBJFoY68DDm0Xip-35" target="BcbBSlBJFoY68DDm0Xip-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1793,8 +1784,8 @@
         <mxCell id="aTZh3WzJxpeGn1zqf379-169" value="数据采集" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1391.66" y="10376" width="66" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="aTZh3WzJxpeGn1zqf379-170" value="url集合" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#E8FFE8;" vertex="1" parent="1">
-          <mxGeometry x="1409.66" y="10402" width="106" height="24" as="geometry" />
+        <mxCell id="aTZh3WzJxpeGn1zqf379-170" value="url集合和爬取规则" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#E8FFE8;" vertex="1" parent="1">
+          <mxGeometry x="1399.66" y="10402" width="127.34" height="24" as="geometry" />
         </mxCell>
         <mxCell id="aTZh3WzJxpeGn1zqf379-171" value="mongoDB" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#DBEEFF;" vertex="1" parent="1">
           <mxGeometry x="1406.16" y="10498" width="113" height="37" as="geometry" />
