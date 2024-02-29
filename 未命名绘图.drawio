@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T06:04:13.588Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Regz4kpj4qJl57XYtZdY" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-29T06:05:20.162Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="21n4s0PfWpLvuzmHhgGm" version="23.1.7" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="2030" dy="-384" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -2064,7 +2064,7 @@
         <mxCell id="aTZh3WzJxpeGn1zqf379-292" value="或" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="811.12" y="9870" width="30" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="W_Ba_89CJp0OXJ3pNA6n-1" value="事件管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="W_Ba_89CJp0OXJ3pNA6n-1" value="事件总览" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="222" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W_Ba_89CJp0OXJ3pNA6n-2" value="展示全部事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
